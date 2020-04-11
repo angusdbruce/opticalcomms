@@ -1,0 +1,84 @@
+\begin{figure}[!htb]
+\begin{center}
+\begin{tikzpicture}
+
+\begin{axis}[
+    %title={Temperature dependence of CuSO$_4\cdot$5H$_2$O solubility},
+    xlabel={Voltage [V]},
+    ylabel={Current [A]},
+    height=10cm,
+    width=\textwidth,
+    xmin=-10, xmax=10,
+    ymin=-1.2E-09, ymax=1.2E-09,
+    xtick={-10, -8, -6, -4, -2,0,2,4,6,8,10},
+    ytick={-1.0E-09, -0.6E-09, -0.2E-09, 0, 0.2E-09, 0.6E-09, 1.0E-09},
+    legend pos=south east,
+    ymajorgrids=true,
+    grid style=dashed,
+]
+
+\addplot[color=red]
+  coordinates {
+
+};
+  \addlegendentry{$16\mu m$}
+
+
+
+\addplot[color=orange]
+  coordinates {
+
+};
+  \addlegendentry{$14\mu m$}
+
+
+
+\addplot[color=yellow]
+  coordinates {
+
+  };
+  \addlegendentry{$12\mu m$}
+
+
+
+\addplot[color=green]
+  coordinates {
+
+  };
+  \addlegendentry{$10\mu m$}
+
+
+
+\addplot[color=cyan]
+  coordinates {
+
+  };
+  \addlegendentry{$8\mu m$}
+
+
+
+\addplot[color=blue]
+  coordinates {
+
+  };
+  \addlegendentry{$6\mu m$}
+
+\addplot[color=violet]
+  coordinates {
+
+  };
+  \addlegendentry{$4\mu m$}
+
+\addplot[color=purple]
+  coordinates {
+
+    };
+  \addlegendentry{$2\mu m$}
+
+\end{axis}
+\end{tikzpicture}
+
+\caption{Plot of Current vs Volatge for TLM Gaps on Substrate A at $100\degree C$ After Annealing}
+\label{fig:results:room_temp_tlms_a_postanneal}
+\end{center}
+\end{figure}

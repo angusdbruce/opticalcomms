@@ -1,0 +1,138 @@
+\documentclass[a4paper]{article}
+
+\addtolength{\oddsidemargin}{-.75in}
+\addtolength{\evensidemargin}{-.75in}	\addtolength{\textwidth}{1.5in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.375in}
+
+\usepackage[british]{babel}
+\usepackage[UKenglish]{datetime}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{pgfplots}
+\usepackage{blindtext}
+\usepackage{scalerel,amssymb}
+\def\msquare{\mathord{\scalerel*{\Box}{gX}}}
+% \usepackage{epstopdf}
+% \epstopdfDeclaregraphicsRule{.tif}{png}{.png}{convert #1 \OutputFile}
+% \AppendGraphicsExtentions{.tif}
+\pgfplotsset{compat=1.16}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{subcaption}
+%\usepackage{circuitikz}
+\usepackage[colorinlistoftodos]{todonotes}
+\usetikzlibrary{positioning,fit,calc,arrows.meta, positioning}
+\tikzset{block/.style={draw,thick,text width=2cm,minimum height=1cm,align=center},
+         line/.style={-latex}
+         }
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{courier}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{setspace}
+\usepackage[acronym, toc]{glossaries}
+\usepackage[titletoc, page]{appendix}
+\input{Chapters/glossary.tex}
+%\onehalfspacing
+\singlespacing
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.92,0.96,1}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numbers=left,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize\ttfamily,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+\title{ENG5055: Micro and Nano Technology: Manufacture of a Red LED}
+
+\author{Angus Bruce - 2186197b}\date{\today}
+
+
+
+\begin{document}
+  \pagestyle{empty}
+  \clearpage
+  \pagestyle{empty}
+  \maketitle
+  \pagestyle{empty}
+  \begin{center}
+    \vspace{0.8cm}
+    \includegraphics[width=8cm]{Figures/LED_on_picture.jpeg}
+    \vspace{0.8cm}
+
+    James Watt School of Engineering
+
+    University of Glasgow
+    % \includegraphics[width=6cm]{Figures/logo-glasgow-university-1-transparent.png}
+  \end{center}
+
+
+  % \newpage
+  \thispagestyle{empty}
+  % \input{Chapters/abstract.tex}
+
+
+  % \newpage
+  % \thispagestyle{empty}
+  % \input{Chapters/acknowledgements.tex}
+
+
+  % \newpage
+  % \pagestyle{empty}
+  % \thispagestyle{empty}
+  % \tableofcontents
+  % \thispagestyle{empty}
+  % \listoffigures
+  % \thispagestyle{empty}
+  % \listoftables
+  %\newpage
+  % \printglossary
+  % \printglossary[type=\acronymtype]
+
+
+  \newpage
+  % \pagenumbering{arabic}
+  \pagestyle{plain}
+  % \onehalfspacing
+  % \spacing{1.5}
+
+  \input{Chapters/Introduction/introduction.tex}
+
+  \input{Chapters/Fabrication/fabrication.tex}
+
+  \input{Chapters/Test/test.tex}
+
+  \input{Chapters/Commentary/commentary.tex}
+
+  \input{Chapters/bibliography.tex}
+
+\end{document}

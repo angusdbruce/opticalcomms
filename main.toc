@@ -1,0 +1,19 @@
+\babel@toc {british}{}
+\contentsline {section}{List of Figures}{2}{section*.2}%
+\contentsline {section}{List of Tables}{2}{section*.3}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Fabrication}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Cleanrooms}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cleans}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Photolithography}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Etching}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Metallisation}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Lift-Off}{4}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Test}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Apparatus}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}I-V Characteristics}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}LI Characteristics}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Spectral Characteristics}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Contact Resistance}{7}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Commentary}{8}{section.4}%
+\contentsline {section}{References}{9}{section*.11}%
