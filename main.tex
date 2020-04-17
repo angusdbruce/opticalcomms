@@ -39,9 +39,9 @@
 \usepackage[nottoc]{tocbibind}
 
 \usepackage{setspace}
-\usepackage[acronym, toc]{glossaries}
+% \usepackage[acronym, toc]{glossaries}
 \usepackage[titletoc, page]{appendix}
-\input{Chapters/glossary.tex}
+% \input{Chapters/glossary.tex}
 %\onehalfspacing
 \singlespacing
 
@@ -79,25 +79,25 @@
 
 
 \begin{document}
-  \pagestyle{empty}
-  \clearpage
-  \pagestyle{empty}
-  \maketitle
-  \pagestyle{empty}
-  \begin{center}
-    \vspace{0.8cm}
-    \includegraphics[width=8cm]{Figures/LED_on_picture.jpeg}
-    \vspace{0.8cm}
-
-    James Watt School of Engineering
-
-    University of Glasgow
-    % \includegraphics[width=6cm]{Figures/logo-glasgow-university-1-transparent.png}
-  \end{center}
-
-
-  % \newpage
-  \thispagestyle{empty}
+  % \pagestyle{empty}
+  % \clearpage
+  % \pagestyle{empty}
+  % \maketitle
+  % \pagestyle{empty}
+  % \begin{center}
+  %   \vspace{0.8cm}
+  %   \includegraphics[width=8cm]{Figures/LED_on_picture.jpeg}
+  %   \vspace{0.8cm}
+  %
+  %   James Watt School of Engineering
+  %
+  %   University of Glasgow
+  %   % \includegraphics[width=6cm]{Figures/logo-glasgow-university-1-transparent.png}
+  % \end{center}
+  %
+  %
+  % % \newpage
+  % \thispagestyle{empty}
   % \input{Chapters/abstract.tex}
 
 
@@ -119,20 +119,20 @@
   % \printglossary[type=\acronymtype]
 
 
-  \newpage
+  % \newpage
   % \pagenumbering{arabic}
   \pagestyle{plain}
   % \onehalfspacing
   % \spacing{1.5}
 
-  \input{Chapters/Introduction/introduction.tex}
+  \input{Chapters/Q1.tex}
 
-  \input{Chapters/Fabrication/fabrication.tex}
+  \input{Chapters/Q2.tex}
 
-  \input{Chapters/Test/test.tex}
-
-  \input{Chapters/Commentary/commentary.tex}
+  \input{Chapters/Q3.tex}
 
   \input{Chapters/bibliography.tex}
+
+  \input{Chapters/appendices.tex}
 
 \end{document}
